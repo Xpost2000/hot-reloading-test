@@ -1,0 +1,12 @@
+This is a quick little cross-platform demo that does
+file hot reloading.
+
+The program reads and displays the contents of
+data.txt ( only 1 KB though! ), and updates live
+based on the file's modification / write time.
+
+NOTE: The flickering on Windows is due to my shoddy
+	  implementation of my libncurses functions.
+
+	  On Linux it does not flicker, but otherwise on both
+	  OSes it exhibits the correct behavior.
