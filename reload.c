@@ -39,11 +39,7 @@ int main( int argc, char** argv ){
 				fclose( file );
 			}
 		}
-		/*
-		  This by definition does what I needed
-		  to do, but one it's piss poor slow since
-		  it just reads constantly.
-		 */
+
 		prg_mvprintw( 3, 0, "%s\n", string_buffer );
 
 		prg_refresh();
